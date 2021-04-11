@@ -23,8 +23,7 @@ int main() {
 
   sc_memorySave("binary.bin");
 
-  printf("Для проверки memoryLoad выполним заново memoryInit и посмотрим ее
-  значения\n");
+  printf("Для проверки memoryLoad выполним заново memoryInit и посмотрим ее значения\n");
 
   sc_memoryInit();
   sc_memoryLoad("binary.bin");
