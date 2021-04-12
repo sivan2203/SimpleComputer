@@ -1,6 +1,6 @@
 
 #include "myTerm.h"
-#
+
 int mt_clrscr() {
 
 	printf("\E[H\E[J");
